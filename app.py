@@ -35,7 +35,7 @@ with gr.Blocks(css="""
 """) as demo:
 
    
-    gr.Markdown("<h1 class='center-text'> ✨ Life Story Generator ✨")  # Title
+    gr.Markdown("<h1 class='center-text'> ✨ Life Story Generator ✨")  
     gr.Markdown("<div class='spacer'></div>")
     story_input = gr.Textbox(label="Enter your story", placeholder="Type your story here...")
 
